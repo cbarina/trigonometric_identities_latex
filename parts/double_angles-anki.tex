@@ -1,0 +1,77 @@
+% -*- coding:utf-8 -*-
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\newenvironment{note}{\paragraph{NOTE:}}{}
+\newenvironment{field}{\paragraph{field:}}{}
+\newcommand*{\tags}[1]{\paragraph{tags: }#1}
+
+\begin{document}
+
+\begin{note}
+    \tags{double-angles}
+    \begin{field}
+    \[  
+        \sin(2x)
+    \] 
+    \begin{center}
+    (double angle)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        2 \sin x \cos x
+    \] 
+    \begin{center}
+    (double angle)
+    \end{center}
+    \end{field}
+\end{note}
+
+
+
+\begin{note}
+    \tags{double-angles}
+    \begin{field}
+    \[  
+        \cos(2x)
+    \] 
+    \begin{center}
+    (double angle; three options)
+    \end{center}
+    \end{field}
+    \begin{field}
+        \begin{center}
+        \begin{gather*}
+        \cos^2 x - \sin^2 x \\ 
+        2 \cos^2 x - 1 \\ 
+        1 - 2 \sin^2 x\\
+        \end{gather*}
+       (double angle; three options)
+        \end{center}
+    \end{field}
+\end{note}
+ 
+
+ \begin{note}
+    \tags{double-angles}
+    \begin{field}
+    \[  
+        \tan(2x)  
+    \] 
+    \begin{center}
+    (double angle)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{2 \tan x}{1 - \tan^2 x}
+    \] 
+    \begin{center}
+    (double angle)
+    \end{center}
+    \end{field}
+\end{note}
+
+\end{document}
+

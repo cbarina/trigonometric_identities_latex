@@ -1,0 +1,31 @@
+% -*- coding:utf-8 -*-
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\newenvironment{note}{\paragraph{NOTE:}}{}
+\newenvironment{field}{\paragraph{field:}}{}
+\newcommand*{\tags}[1]{\paragraph{tags: }#1}
+
+\begin{document}
+
+\begin{note}
+    \tags{tag here}
+    \begin{field}
+    \[  
+
+    \] 
+    \begin{center}
+    (text here)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+ 
+    \] 
+    \begin{center}
+    (text here)
+    \end{center}
+    \end{field}
+\end{note}
+
+\end{document}
+

@@ -6,3 +6,6 @@
 *.bbl
 *.toc
 .DS_Store
+*.fdb_latexmk
+*.fls
+*.synctex*
