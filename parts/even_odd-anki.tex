@@ -1,7 +1,6 @@
 % -*- coding:utf-8 -*-
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
 \newenvironment{note}{\paragraph{NOTE:}}{}
 \newenvironment{field}{\paragraph{field:}}{}
 \newcommand*{\tags}[1]{\paragraph{tags: }#1}
@@ -9,69 +8,65 @@
 \begin{document}
 
 \begin{note}
-    \tags{double-angles}
+    \tags{even/odd}
     \begin{field}
     \[  
-        \sin(2\theta)
+        \tan(-\theta)
     \] 
     \begin{center}
-    (double angle)
+    (even/odd)
     \end{center}
     \end{field}
     \begin{field}
     \[
-        2 \sin \theta \cos \theta
+        -\tan \theta
     \] 
     \begin{center}
-    (double angle)
+    (even/odd)
     \end{center}
     \end{field}
 \end{note}
-
-
 
 \begin{note}
-    \tags{double-angles}
+    \tags{even/odd}
     \begin{field}
     \[  
-        \cos(2\theta)
+        \cos(-\theta)
     \] 
     \begin{center}
-    (double angle; three options)
-    \end{center}
-    \end{field}
-    \begin{field}
-        \begin{center}
-        \begin{gather*}
-        \cos^2 \theta - \sin^2 \theta \\ 
-        2 \cos^2 \theta - 1 \\ 
-        1 - 2 \sin^2 \theta\\
-        \end{gather*}
-       (double angle; three options)
-        \end{center}
-    \end{field}
-\end{note}
- 
-
- \begin{note}
-    \tags{double-angles}
-    \begin{field}
-    \[  
-        \tan(2\theta)  
-    \] 
-    \begin{center}
-    (double angle)
+    (even/odd)
     \end{center}
     \end{field}
     \begin{field}
     \[
-        \frac{2 \tan \theta}{1 - \tan^2 \theta}
+        \cos \theta
     \] 
     \begin{center}
-    (double angle)
+    (even/odd)
     \end{center}
     \end{field}
 \end{note}
+
+\begin{note}
+    \tags{even/odd}
+    \begin{field}
+    \[  
+        \sin(-\theta)
+    \] 
+    \begin{center}
+    (even/odd)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        - \sin \theta
+    \] 
+    \begin{center}
+    (even/odd)
+    \end{center}
+    \end{field}
+\end{note}
+
 
 \end{document}
 

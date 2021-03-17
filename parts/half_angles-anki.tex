@@ -1,7 +1,6 @@
 % -*- coding:utf-8 -*-
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
 \newenvironment{note}{\paragraph{NOTE:}}{}
 \newenvironment{field}{\paragraph{field:}}{}
 \newcommand*{\tags}[1]{\paragraph{tags: }#1}
@@ -9,21 +8,42 @@
 \begin{document}
 
 \begin{note}
-    \tags{double-angles}
+    \tags{half-angles}
     \begin{field}
     \[  
-        \sin(2\theta)
+        \sin \frac{\theta}{2}
     \] 
     \begin{center}
-    (double angle)
+    (half angles)
     \end{center}
     \end{field}
     \begin{field}
     \[
-        2 \sin \theta \cos \theta
+        \pm \sqrt{ \frac{1 - \cos \theta }{2} } 
     \] 
     \begin{center}
-    (double angle)
+    (half angles)
+    \end{center}
+    \end{field}
+\end{note}
+
+
+\begin{note}
+    \tags{half-angles}
+    \begin{field}
+    \[  
+        \cos \frac{\theta}{2}
+    \] 
+    \begin{center}
+    (half angles)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \pm \sqrt{ \frac{1 + \cos \theta }{2} } 
+    \] 
+    \begin{center}
+    (half angles)
     \end{center}
     \end{field}
 \end{note}
@@ -31,47 +51,27 @@
 
 
 \begin{note}
-    \tags{double-angles}
+    \tags{half-angles}
     \begin{field}
     \[  
-        \cos(2\theta)
+        \tan \frac{\theta}{2}
     \] 
     \begin{center}
-    (double angle; three options)
-    \end{center}
-    \end{field}
-    \begin{field}
-        \begin{center}
-        \begin{gather*}
-        \cos^2 \theta - \sin^2 \theta \\ 
-        2 \cos^2 \theta - 1 \\ 
-        1 - 2 \sin^2 \theta\\
-        \end{gather*}
-       (double angle; three options)
-        \end{center}
-    \end{field}
-\end{note}
- 
-
- \begin{note}
-    \tags{double-angles}
-    \begin{field}
-    \[  
-        \tan(2\theta)  
-    \] 
-    \begin{center}
-    (double angle)
+    (half angles)
     \end{center}
     \end{field}
     \begin{field}
     \[
-        \frac{2 \tan \theta}{1 - \tan^2 \theta}
+        \pm \sqrt{ \frac{1 - \cos \theta }{1 + \cos \theta}} 
     \] 
     \begin{center}
-    (double angle)
+    (half angles)
     \end{center}
     \end{field}
 \end{note}
+
+
+
 
 \end{document}
 
