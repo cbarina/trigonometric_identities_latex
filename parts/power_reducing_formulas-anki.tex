@@ -1,0 +1,74 @@
+% -*- coding:utf-8 -*-
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\newenvironment{note}{\paragraph{NOTE:}}{}
+\newenvironment{field}{\paragraph{field:}}{}
+\newcommand*{\tags}[1]{\paragraph{tags: }#1}
+
+\begin{document}
+
+\begin{note}
+    \tags{power-reducing}
+    \begin{field}
+    \[  
+        \sin^2 \theta
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{1 - \cos 2\theta}{2}
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+\end{note}
+
+\begin{note}
+    \tags{power-reducing}
+    \begin{field}
+    \[  
+        \cos^2 \theta
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{1 + \cos 2\theta}{2}
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+\end{note}
+
+\begin{note}
+    \tags{power-reducing}
+    \begin{field}
+    \[
+        \tan^2 \theta  
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{1 - \cos 2\theta}{1 + \cos 2\theta}
+    \] 
+    \begin{center}
+    (power reducing)
+    \end{center}
+    \end{field}
+\end{note}
+
+\end{document}
+
+
+
+
