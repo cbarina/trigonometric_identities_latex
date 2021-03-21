@@ -1,0 +1,51 @@
+% -*- coding:utf-8 -*-
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\newenvironment{note}{\paragraph{NOTE:}}{}
+\newenvironment{field}{\paragraph{field:}}{}
+\newcommand*{\tags}[1]{\paragraph{tags: }#1}
+
+\begin{document}
+
+\begin{note}
+    \tags{quotient}
+    \begin{field}
+    \[  
+        \tan \theta
+    \] 
+    \begin{center}
+    (quotient)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{\sin \theta}{\cos \theta}
+    \] 
+    \begin{center}
+    (quotient)
+    \end{center}
+    \end{field}
+\end{note}
+
+\begin{note}
+    \tags{quotient}
+    \begin{field}
+    \[  
+        \cot \theta
+    \] 
+    \begin{center}
+    (quotient)
+    \end{center}
+    \end{field}
+    \begin{field}
+    \[
+        \frac{\cos \theta}{\sin \theta}
+    \] 
+    \begin{center}
+    (quotient)
+    \end{center}
+    \end{field}
+\end{note}
+
+\end{document}
+
