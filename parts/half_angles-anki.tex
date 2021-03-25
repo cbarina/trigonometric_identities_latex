@@ -1,6 +1,7 @@
 % -*- coding:utf-8 -*-
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
 \newenvironment{note}{\paragraph{NOTE:}}{}
 \newenvironment{field}{\paragraph{field:}}{}
 \newcommand*{\tags}[1]{\paragraph{tags: }#1}
@@ -61,12 +62,16 @@
     \end{center}
     \end{field}
     \begin{field}
-    \[
-        \pm \sqrt{ \frac{1 - \cos \theta }{1 + \cos \theta}} 
-    \] 
-    \begin{center}
-    (half angles)
-    \end{center}
+        \begin{center}
+        \begin{gather*}
+            \pm \sqrt{ \frac{1 - \cos \theta }{1 + \cos \theta}}\\
+            \\
+            \frac{1 - \cos \theta}{\sin \theta}\\
+            \\
+            \frac{\sin \theta}{1 + \cos \theta}\\ 
+        \end{gather*}
+        (half angles)
+        \end{center}
     \end{field}
 \end{note}
 
